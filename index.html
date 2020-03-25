@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Rod Pesavento</o:Author>
   <o:LastAuthor>Rod Pesavento</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>17</o:TotalTime>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>18</o:TotalTime>
   <o:Created>2020-03-25T00:05:00Z</o:Created>
-  <o:LastSaved>2020-03-25T00:05:00Z</o:LastSaved>
+  <o:LastSaved>2020-03-25T00:12:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>37</o:Words>
-  <o:Characters>214</o:Characters>
+  <o:Words>20</o:Words>
+  <o:Characters>115</o:Characters>
   <o:Lines>1</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>250</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>134</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -36,7 +36,6 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <w:WordDocument>
   <w:DisplayBackgroundShape/>
   <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -60,6 +59,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
    <w:OverrideTableStyleHps/>
    <w:UseFELayout/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -282,6 +282,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -374,8 +376,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Balloon Text"/>
   <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
   <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
   <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
   <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
@@ -656,21 +662,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+	mso-font-signature:3 0 0 0 1 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-520082689 1073786111 9 0 511 0;}
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
 @font-face
 	{font-family:"Calibri Light";
 	panose-1:2 15 3 2 2 2 4 3 2 4;
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-1610601745 1073750139 0 0 511 0;}
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -1364,6 +1370,18 @@ span.Heading6Char
 	mso-bidi-theme-font:major-bidi;
 	color:#70AD47;
 	mso-themecolor:accent6;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
 span.Heading7Char
 	{mso-style-name:"Heading 7 Char";
 	mso-style-noshow:yes;
@@ -1509,10 +1527,6 @@ span.IntenseQuoteChar
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:10.0pt;
-	line-height:120%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
@@ -1534,11 +1548,8 @@ div.WordSection1
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin-top:0in;
-	mso-para-margin-right:0in;
-	mso-para-margin-bottom:10.0pt;
-	mso-para-margin-left:0in;
-	line-height:120%;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
 	font-size:10.5pt;
 	font-family:"Calibri",sans-serif;
@@ -1567,12 +1578,10 @@ style='tab-interval:.5in'>
 <p class=MsoNormal><span style='font-size:16.0pt;line-height:120%'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:16.0pt;line-height:120%'><a
-href="https://github.com/timeconfusing/ArcadeDrive/blob/master/arcade.html">Visualize
-Arcade Drive Values</a><o:p></o:p></span></p>
+href="arcade.html">Visualize Arcade Drive Values<o:p></o:p></a></span></p>
 
 <p class=MsoNormal><span style='font-size:16.0pt;line-height:120%'><a
-href="https://github.com/timeconfusing/ArcadeDrive/blob/master/x-arcade.html">Visualize
-X-Arcade Drive Values</a><o:p></o:p></span></p>
+href="x-arcade.html">Visualize X-Arcade Drive Values</a><o:p></o:p></span></p>
 
 </div>
 
